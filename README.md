@@ -43,8 +43,8 @@
 # create Database
 Create Database with db name => super2doapp
 
-# create File .env
-Create file .env and copy all in .env.example to .env
+# copy File .env.example 
+cp .env.example .env
 
 # generate key laravel
 php artisan key:generate
